@@ -1,0 +1,14 @@
+{
+  "name": "portopolio-with-sass",
+  "version": "1.0.0",
+  "description": "Portofolio with Sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Taka",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
